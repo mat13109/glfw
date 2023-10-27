@@ -76,6 +76,7 @@ project "GLFW"
 		}
 
 	filter "system:windows"
+		buildoptions "/MT"
 		systemversion "latest"
 
 		files
